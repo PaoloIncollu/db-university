@@ -54,7 +54,7 @@ ON courses.degree_id = degrees.id
 INNER JOIN `departments` 
 ON degrees.department_id = departments.id 
 WHERE departments.name = 'dipartimento di matematica' 
-ORDER BY teachers.name ASC , teachers.surname ASC;
+ORDER BY teachers.surname, ASCteachers.name ASC;
 
 
 7. BONUS: Selezionare per ogni studente il numero di tentativi sostenuti
